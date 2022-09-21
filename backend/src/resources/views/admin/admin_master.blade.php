@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class="color-sidebar sidebarcolor2" lang="en">
 
 <head>
 	<!-- Required meta tags -->
@@ -18,7 +18,7 @@
 	<script src="{{ asset('backend/assets/js/pace.min.js') }}"></script>
 	<!-- Bootstrap CSS -->
 	<link href="{{ asset('backend/assets/css/bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ asset('backend/assets/css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('backend/assets/css/app.css?v=').time() }}" rel="stylesheet">
 	<link href="{{ asset('backend/assets/css/icons.css') }}" rel="stylesheet">
 	<!-- Theme Style CSS -->
 	<link rel="stylesheet" href="{{ asset('backend/assets/css/dark-theme.css') }}" />
@@ -78,7 +78,7 @@
 	  </script>
 	  <script src="{{ asset('backend/assets/js/index.js') }}"></script>
 	<!--app JS-->
-	<script src="{{ asset('backend/assets/js/app.js') }}"></script>
+	<script src="{{ asset('backend/assets/js/app.js?v=').time() }}"></script>
 
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>

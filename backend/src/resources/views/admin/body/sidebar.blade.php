@@ -1,8 +1,8 @@
-<div style="background: #4c5258;" class="sidebar-wrapper" data-sidebar="dark" data-simplebar="true">
+<div class="sidebar-wrapper" data-sidebar="dark" data-simplebar="true">
 			<div class="sidebar-header">
-				<div>
+				<!--<div>
 					<img src="{{ asset('backend/assets/images/logo-icon.png') }}" class="logo-icon" alt="logo icon">
-				</div>
+				</div>-->
 				<div>
 					<h4 class="logo-text">Crew Store</h4>
 				</div>

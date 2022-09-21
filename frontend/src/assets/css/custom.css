@@ -16,6 +16,8 @@
 @import "productDetails.css";
 @import "cartList.css";
 
-body{
-     background-color: #ffffff;
+body {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-family: "Reem Kufi", sans-serif;
 }

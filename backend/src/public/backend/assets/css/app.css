@@ -15,9 +15,9 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-body[data-sidebar="dark"] .sidebar-wrapper {
+/*body[data-sidebar="dark"] .sidebar-wrapper {
     background: #2a3042;
-}
+}*/
 
 a {
     text-decoration: none;
